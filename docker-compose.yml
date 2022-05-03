@@ -1,0 +1,7 @@
+version: '3'
+services:
+  fe:
+    build: ./
+    container_name: fe
+    ports:
+      - '80:8080'
